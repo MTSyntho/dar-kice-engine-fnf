@@ -1,0 +1,42 @@
+{
+  "author": "",
+  "category": "",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "FadingForFNF",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Make object show then fade away",
+      "fullName": "Make white stuff fade",
+      "functionType": "Action",
+      "group": "",
+      "name": "Function",
+      "private": false,
+      "sentence": "Make _PARAM1_ show then fade away",
+      "events": [],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "white",
+          "longDescription": "",
+          "name": "white",
+          "optional": false,
+          "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": []
+}

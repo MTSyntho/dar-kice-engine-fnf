@@ -1,0 +1,5154 @@
+{
+  "firstLayout": "SplashText",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.fnf.itsicecreeperpe",
+    "pixelsRounding": false,
+    "projectUuid": "ab0652fa-5220-4a7c-af4a-1e2a6962cc96",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "v0.0.1.3",
+    "name": "Friday Night Funkin' : dar-kice Engine",
+    "description": "dope ass friday night funkin engine made in GDevelop 5 for de easiest moddin' and optimization.\nhttps://itsicecreeperpe.itch.io/dar-kice-engine-fnf",
+    "author": "ItsIceCreeperPE",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "C:\\Users\\darkstick\\Pictures\\a",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "assets\\icons\\android\\android-icon-144.png",
+      "android-icon-192": "assets\\icons\\android\\android-icon-192.png",
+      "android-icon-36": "assets\\icons\\android\\android-icon-36.png",
+      "android-icon-48": "assets\\icons\\android\\android-icon-48.png",
+      "android-icon-72": "assets\\icons\\android\\android-icon-72.png",
+      "android-icon-96": "assets\\icons\\android\\android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "assets\\icons\\android\\android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "assets\\icons\\desktop\\desktop-icon-512.png",
+      "ios-icon-100": "assets\\icons\\iOS\\ios-icon-100.png",
+      "ios-icon-1024": "assets\\icons\\iOS\\ios-icon-1024.png",
+      "ios-icon-114": "assets\\icons\\iOS\\ios-icon-114.png",
+      "ios-icon-120": "assets\\icons\\iOS\\ios-icon-120.png",
+      "ios-icon-144": "assets\\icons\\iOS\\ios-icon-144.png",
+      "ios-icon-152": "assets\\icons\\iOS\\ios-icon-152.png",
+      "ios-icon-167": "assets\\icons\\iOS\\ios-icon-167.png",
+      "ios-icon-180": "assets\\icons\\iOS\\ios-icon-180.png",
+      "ios-icon-20": "assets\\icons\\iOS\\ios-icon-20.png",
+      "ios-icon-29": "assets\\icons\\iOS\\ios-icon-29.png",
+      "ios-icon-40": "assets\\icons\\iOS\\ios-icon-40.png",
+      "ios-icon-50": "assets\\icons\\iOS\\ios-icon-50.png",
+      "ios-icon-57": "assets\\icons\\iOS\\ios-icon-57.png",
+      "ios-icon-58": "assets\\icons\\iOS\\ios-icon-58.png",
+      "ios-icon-60": "assets\\icons\\iOS\\ios-icon-60.png",
+      "ios-icon-72": "assets\\icons\\iOS\\ios-icon-72.png",
+      "ios-icon-76": "assets\\icons\\iOS\\ios-icon-76.png",
+      "ios-icon-80": "assets\\icons\\iOS\\ios-icon-80.png",
+      "ios-icon-87": "assets\\icons\\iOS\\ios-icon-87.png",
+      "liluo-thumbnail": "assets\\thumbnail.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "assets\\thumbnail.png",
+      "gdevelopLogoStyle": "light-colored",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 2,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 400,
+      "progressBarMinWidth": 400,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [
+      "wJNvBw2TGEZ09MUQUZDv8c12dig1"
+    ],
+    "categories": [],
+    "playableDevices": [
+      "keyboard",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/fonts/nokiafc22.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\nokiafc22.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/FridayNightFunkin-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/bgOverlay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\bgOverlay.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/logoBumpin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\logoBumpin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/vcr.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\vcr.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/UAV-OSD-Mono.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\UAV-OSD-Mono.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/UAV-OSD-Sans-Mono.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\UAV-OSD-Sans-Mono.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/weeks/tutorial.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\weeks\\tutorial.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/daddy/Dad idle dance BLACK LINE0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\daddy\\Dad idle dance BLACK LINE0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/spooky/spookydance0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\spooky\\spookydance0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/bf/BF idle dance white0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\bf\\BF idle dance white0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/characters/gf/GF Dancing Beat WHITE0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\characters\\gf\\GF Dancing Beat WHITE0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/difficulty/ez.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\difficulty\\ez.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/difficulty/isfine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\difficulty\\isfine.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/difficulty/isithardcore.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\difficulty\\isithardcore.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/arrows/arrow left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\arrows\\arrow left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/arrows/arrow push left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\arrows\\arrow push left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/arrows/arrow right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\arrows\\arrow right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/arrows/arrow push right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\arrows\\arrow push right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/storymode/ui/lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\storymode\\ui\\lock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/splash/newgrounds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\splash\\newgrounds.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/placeholders/blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\placeholders\\blank.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/placeholders/white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\placeholders\\white.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuBG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuBG.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuBGBlue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuBGBlue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuBGLightBlue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuBGLightBlue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuBGMagenta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuBGMagenta.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuBGPurple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuBGPurple.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuDesat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuDesat.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymode1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymode1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymode2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymode2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymode3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymode3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymode4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymode4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymodehover1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymodehover1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymodehover2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymodehover2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymodehover3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymodehover3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/storymode/storymodehover4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\storymode\\storymodehover4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/freeplay/freeplay1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\freeplay\\freeplay1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/freeplay/freeplay2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\freeplay\\freeplay2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/freeplay/freeplay3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\freeplay\\freeplay3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/freeplay/freeplay4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\freeplay\\freeplay4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/freeplay/freeplayhover1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\freeplay\\freeplayhover1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/freeplay/freeplayhover2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\freeplay\\freeplayhover2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/options/options1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\options\\options1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/options/options2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\options\\options2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/options/options3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\options\\options3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/options/options4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\options\\options4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/options/optionshover1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\options\\optionshover1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/options/optionshover2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\options\\optionshover2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/donate/donate1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\donate\\donate1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/donate/donate2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\donate\\donate2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/donate/donatehover1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\donate\\donatehover1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/donate/donatehover2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\donate\\donatehover2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/credits/credits1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\credits\\credits1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/credits/credits2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\credits\\credits2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/placeholders/black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\placeholders\\black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/stages/tutorial/stageback.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stages\\tutorial\\stageback.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/stages/tutorial/stagefront.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stages\\tutorial\\stagefront.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/stages/tutorial/stagecurtains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stages\\tutorial\\stagecurtains.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/stages/tutorial/stagelight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stages\\tutorial\\stagelight.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/idle/BF idle dance0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\idle\\BF idle dance0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/idle/GF Dancing Beat0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\idle\\GF Dancing Beat0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/left/GF left note0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\left\\GF left note0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/down/GF Down Note0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\down\\GF Down Note0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/up/GF Up Note0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\up\\GF Up Note0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/gf/right/GF Right Note0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\gf\\right\\GF Right Note0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/countdown/beforeready.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\countdown\\beforeready.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/countdown/go.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\countdown\\go.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/countdown/ready.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\countdown\\ready.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/countdown/set.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\countdown\\set.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/healthBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\healthBar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/leftarrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\leftarrow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/downarrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\downarrow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/uparrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\uparrow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/rightarrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\rightarrow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audios/EPIKmuzik/freakyMenu.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audios\\EPIKmuzik\\freakyMenu.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/audios/EPICsongs/tutorial/Inst.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\audios\\EPICsongs\\tutorial\\Inst.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/logoBumpin/logoBumpin1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\logoBumpin\\logoBumpin1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/logoBumpin/logoBumpin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\logoBumpin\\logoBumpin2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/logoBumpin/logoBumpin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\logoBumpin\\logoBumpin3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/logoBumpin/logoBumpin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\logoBumpin\\logoBumpin4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/logoBumpin/logoBumpin5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\logoBumpin\\logoBumpin5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/placeholders/leftArrowSpawner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\placeholders\\leftArrowSpawner.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/gfDanceTitle/gfDance0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\gfDanceTitle\\gfDance0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/Press Enter to Begin/Press Enter to Begin0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainmenu/titleEnter/ENTER PRESSED/ENTER PRESSED0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/credits/creditshover1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\credits\\creditshover1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/buttons/credits/creditshover2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\buttons\\credits\\creditshover2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/transition/curtain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\transition\\curtain.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/bg/menuBGWHOLESOME.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\bg\\menuBGWHOLESOME.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/menuPhotos/credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\menuPhotos\\credits.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/menuPhotos/donate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\menuPhotos\\donate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/menuPhotos/freeplay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\menuPhotos\\freeplay.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/menuPhotos/options.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\menuPhotos\\options.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/menuPhotos/storymode.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\menuPhotos\\storymode.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/thumbnail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\thumbnail.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-96.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-icon-36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-icon-192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-icon-96.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-icon-48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android-icon-36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/desktop/desktop-icon-512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\desktop\\desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-icon-192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-icon-96.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-icon-48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/android/android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\android\\android-icon-36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/icons/iOS/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\icons\\iOS\\ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "menuBG",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuBG.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blue",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuBGBlue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lightblue",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuBGLightBlue.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pink",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuBGMagenta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuBGPurple.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "desaturated",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuDesat.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WHOLESOME",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\bg\\menuBGWHOLESOME.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "titleEnter",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05000000074505806,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0020.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0021.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0022.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0023.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0024.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0025.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0026.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0027.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0028.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0037.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0038.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0039.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0040.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0041.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0042.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0043.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\Press Enter to Begin\\Press Enter to Begin0044.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "enter",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.05000000074505806,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\mainmenu\\titleEnter\\ENTER PRESSED\\ENTER PRESSED0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "weekscore",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "diff",
+      "type": "string",
+      "value": "normal"
+    },
+    {
+      "name": "animatedBgs",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "RGBcolors",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "oldStuff",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "gdwatermarks",
+      "type": "string",
+      "value": "1"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/splashtext"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/oldstartmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/startmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/oldmainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/storymode"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/freeplay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/options"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/recolorizer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashlayer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerazoom"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/currentgameversion"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/choose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fadingforfnf"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

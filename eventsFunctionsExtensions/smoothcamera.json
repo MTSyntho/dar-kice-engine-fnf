@@ -1,0 +1,150 @@
+{
+  "author": "ItsIceCreeperPE",
+  "category": "",
+  "description": "Center Camera On Object With Smooth Movement And Easy To Use",
+  "extensionNamespace": "",
+  "fullName": "Smooth Camera",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "SmoothCamera",
+  "previewIconUrl": "",
+  "shortDescription": "Center Camera On Object With Smooth Movement",
+  "version": "1.0.0",
+  "tags": [
+    "Camera",
+    "Align"
+  ],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Centers camera on object and as object moves the camera moves too but smooth.",
+      "fullName": "Smooth Camera",
+      "functionType": "Action",
+      "group": "Smooth Camera",
+      "name": "SmoothCamera",
+      "private": false,
+      "sentence": "Center Camera On _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), Object.CenterX(), 0.05)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), Object.CenterY(), 0.05)",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "codeOnly": false,
+          "defaultValue": "",
+          "description": "Object To Center Camera On",
+          "longDescription": "",
+          "name": "Object",
+          "optional": false,
+          "supplementaryInformation": "",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "",
+      "fullName": "",
+      "name": "SmoothCamera",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "description": "Centers camera on object and as object moves the camera moves too but smooth.",
+          "fullName": "Smooth Camera",
+          "functionType": "Action",
+          "group": "Smooth Camera",
+          "name": "SmoothCamera",
+          "private": false,
+          "sentence": "Center Camera On _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "lerp(CameraX(), Object.X(), 0.05)",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "lerp(CameraY(), Object.Y(), 0.05)",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Object",
+              "longDescription": "",
+              "name": "Object",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "object"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Behavior",
+              "longDescription": "",
+              "name": "Behavior",
+              "optional": false,
+              "supplementaryInformation": "SmoothCamera::SmoothCamera",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": []
+    }
+  ]
+}
