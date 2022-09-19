@@ -3889,6 +3889,198 @@
         "name": "assets\\ingameui\\arrows\\colored\\downarrow.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/camerazoom.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\camerazoom.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/choose.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\choose.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/currentgameversion.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\currentgameversion.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/fadingforfnf.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\fadingforfnf.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/flash.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\flash.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/flashlayer.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\flashlayer.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/fps.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\fps.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/parallax.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\parallax.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/recolorizer.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\recolorizer.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/smoothcamera.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\smoothcamera.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "game.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "game.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/credits.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\credits.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/freeplay.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\freeplay.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/mainmenu.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\mainmenu.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/oldmainmenu.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\oldmainmenu.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/oldstartmenu.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\oldstartmenu.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/options.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\options.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/splashtext.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\splashtext.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/startmenu.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\startmenu.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/storymode.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\storymode.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "layouts/tutorial.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "layouts\\tutorial.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/data/tutorialWeek/tutorial/FNFtutorial.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\data\\tutorialWeek\\tutorial\\FNFtutorial.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/jsonloaderforfnf.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\jsonloaderforfnf.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "eventsFunctionsExtensions/untitledextension.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "eventsFunctionsExtensions\\untitledextension.json",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5183,6 +5375,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/fadingforfnf"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/jsonloaderforfnf"
     }
   ],
   "externalLayouts": [],
