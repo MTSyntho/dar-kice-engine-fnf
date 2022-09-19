@@ -3853,6 +3853,42 @@
         "name": "assets\\icons\\iOS\\ios-icon-20.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/colored/leftarrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\colored\\leftarrow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/colored/rightarrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\colored\\rightarrow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/colored/uparrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\colored\\uparrow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/arrows/colored/downarrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\arrows\\colored\\downarrow.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
