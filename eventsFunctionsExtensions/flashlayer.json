@@ -1,7 +1,6 @@
 {
   "author": "Tristan Rhodes (tristan@victrisgames.com)",
   "category": "",
-  "description": "Useful to make a temporary effect (flash on hit, flickering lights, lightning flash, show text like Batman and Robin \"Bam!\", etc)\n\nIt is recommended to select a layer on the top, and one that is hidden by default.",
   "extensionNamespace": "",
   "fullName": "Flash layer",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg",
   "shortDescription": "Make a layer visible for a specified duration, and then hide the layer.",
   "version": "0.2.0",
+  "description": "Useful to make a temporary effect (flash on hit, flickering lights, lightning flash, show text like Batman and Robin \"Bam!\", etc)\n\nIt is recommended to select a layer on the top, and one that is hidden by default.",
   "origin": {
     "identifier": "FlashLayer",
     "name": "gdevelop-extension-store"
@@ -31,9 +31,7 @@
       "description": "Make a layer visible for a specified duration, and then hide the layer.",
       "fullName": "Flash layer",
       "functionType": "Action",
-      "group": "",
       "name": "FlashLayer",
-      "private": false,
       "sentence": "Make layer _PARAM1_ visible for _PARAM2_ seconds",
       "events": [
         {
@@ -165,35 +163,22 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Layer (Default: \"\")",
-          "longDescription": "",
           "name": "LayerToFlash",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "layer"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Duration (seconds) (Default: 0.1) ",
-          "longDescription": "",
           "name": "Duration",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         }
       ],
       "objectGroups": []
     },
     {
-      "description": "",
       "fullName": "",
       "functionType": "Action",
-      "group": "",
       "name": "onScenePostEvents",
-      "private": false,
       "sentence": "",
       "events": [
         {
@@ -269,5 +254,6 @@
       "objectGroups": []
     }
   ],
-  "eventsBasedBehaviors": []
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
 }

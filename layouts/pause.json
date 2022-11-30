@@ -1,11 +1,11 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "options",
-  "name": "options",
+  "mangledName": "pause",
+  "name": "pause",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -28,12 +28,42 @@
       "angle": 0,
       "customSize": true,
       "height": 1080,
-      "layer": "bg",
+      "layer": "",
       "name": "menuBG",
-      "persistentUuid": "77cb80c5-0b8a-4776-99f0-ae7048c74ef3",
+      "persistentUuid": "1da105b1-8e4b-4303-ad73-7bfe3e0d4214",
       "width": 1920,
       "x": 0,
       "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "title",
+      "persistentUuid": "4c24d425-3c27-44d4-bf8b-264dd1828f90",
+      "width": 0,
+      "x": 110,
+      "y": 94,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "resume",
+      "persistentUuid": "6c4dd938-b904-45e0-a0e9-1243cd5dd7d8",
+      "width": 0,
+      "x": 167,
+      "y": 296,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,11 +74,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "animatedbg",
-      "persistentUuid": "9dca8ab6-bcf5-4648-af59-f266d5a45538",
+      "name": "quit",
+      "persistentUuid": "a7efa274-2766-4f09-a072-c9fc92ca2299",
       "width": 0,
-      "x": 152,
-      "y": 490,
+      "x": 167,
+      "y": 441,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,42 +89,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "wip",
-      "persistentUuid": "f9b069b2-36a3-4b58-9bf8-6fe715cfa7ff",
+      "name": "versiondetails",
+      "persistentUuid": "2b860c8c-6b2d-4aff-8846-71585df0d7ba",
       "width": 0,
       "x": 13,
-      "y": 980,
+      "y": 1042,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "p",
-      "persistentUuid": "c01aa786-b65d-4f0b-ae37-5088309797b7",
-      "width": 0,
-      "x": 544,
-      "y": 963,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "colonEyes",
-      "persistentUuid": "70ef963a-bfed-498b-88d3-b571e174603e",
-      "width": 0,
-      "x": 519,
-      "y": 995,
-      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -105,7 +105,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "wip",
+      "name": "title",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -113,20 +113,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "work in progress",
-      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
-      "characterSize": 70,
+      "string": "PAUSED",
+      "font": "assets\\fonts\\vcr.ttf",
+      "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "animatedbg",
+      "name": "resume",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -134,20 +134,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "ANIMATED BGS: ",
-      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
+      "string": "RESUME",
+      "font": "assets\\fonts\\vcr.ttf",
       "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "p",
+      "name": "quit",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -155,20 +155,20 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "p",
-      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
-      "characterSize": 70,
+      "string": "QUIT",
+      "font": "assets\\fonts\\vcr.ttf",
+      "characterSize": 80,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "colonEyes",
+      "name": "versiondetails",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -176,13 +176,13 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": ":",
-      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
-      "characterSize": 70,
+      "string": "version",
+      "font": "assets\\fonts\\vcr.ttf",
+      "characterSize": 30,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     }
   ],
@@ -207,6 +207,36 @@
           "parameters": [
             "menuBG",
             "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "versiondetails",
+            "=",
+            "CurrentGameVersion::ReturnCurrentGameVersion()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "versiondetails",
+            "+",
+            "\" FNF GDevelop By ItsIceCreeperPE\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "versiondetails",
+            "\"0;0;0\"",
             "5"
           ]
         }
@@ -217,32 +247,111 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "resume",
+            "",
+            "",
             ""
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "VarGlobal"
+            "value": "TextObject::SetOutline"
           },
           "parameters": [
-            "animatedBgs",
-            "=",
+            "resume",
+            "\"126;211;33\"",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "quit",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "quit",
+            "\"208;2;27\"",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "resume",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "resume",
+            "\"0;0;0\"",
             "0"
           ]
         }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "quit",
+            "",
+            "",
+            ""
+          ]
+        }
       ],
       "actions": [
         {
           "type": {
-            "value": "TextObject::String"
+            "value": "TextObject::SetOutline"
           },
           "parameters": [
-            "animatedbg",
-            "+",
-            "\"OFF\""
+            "quit",
+            "\"0;0;0\"",
+            "0"
           ]
         }
       ]
@@ -252,32 +361,32 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "resume",
+            "",
+            "",
             ""
           ]
         },
         {
           "type": {
-            "value": "VarGlobal"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
-            "animatedBgs",
-            "=",
-            "1"
+            "",
+            "Left"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "TextObject::String"
+            "value": "PopScene"
           },
           "parameters": [
-            "animatedbg",
-            "+",
-            "\"ON\""
+            ""
           ]
         }
       ]
@@ -287,11 +396,22 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyReleased"
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "quit",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "Escape"
+            "Left"
           ]
         }
       ],
@@ -307,117 +427,13 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyReleased"
-          },
-          "parameters": [
-            "",
-            "Return"
-          ]
-        },
-        {
-          "type": {
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "animatedBgs",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "animatedbg",
-            "=",
-            "\"ANIMATED BGS: ON\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "animatedBgs",
-            "=",
-            "\"1\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyReleased"
-          },
-          "parameters": [
-            "",
-            "Return"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "animatedBgs",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "animatedbg",
-            "=",
-            "\"ANIMATED BGS: OFF\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "animatedBgs",
-            "=",
-            "\"0\""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
     {
-      "ambientLightColorB": 117440512,
-      "ambientLightColorG": 6034128,
-      "ambientLightColorR": 12983296,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "bg",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 2,
-      "ambientLightColorG": 134217728,
-      "ambientLightColorR": 1597132097,
+      "ambientLightColorB": 16777215,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",

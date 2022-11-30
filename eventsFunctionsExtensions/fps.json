@@ -1,7 +1,6 @@
 {
   "author": "Ahnaf30e",
   "category": "",
-  "description": "Adds expressions to get the current FPS and a behavior to display the current FPS easily.\n\nThe FPS, Frames Per Second, describes how many times in the last second your game got updated. An update consists in running all the behaviors, objects, and events sheet code, before rendering the new game state into the game window. The higher the FPS, the more it manages to update in a second, influencing how fluid and performant your game looks.",
   "extensionNamespace": "",
   "fullName": "FPS",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg",
   "shortDescription": "Adds expressions and a behavior to get and display the game FPS.",
   "version": "1.0.0",
+  "description": "Adds expressions to get the current FPS and a behavior to display the current FPS easily.\n\nThe FPS, Frames Per Second, describes how many times in the last second your game got updated. An update consists in running all the behaviors, objects, and events sheet code, before rendering the new game state into the game window. The higher the FPS, the more it manages to update in a second, influencing how fluid and performant your game looks.",
   "origin": {
     "identifier": "FPS",
     "name": "gdevelop-extension-store"
@@ -31,9 +31,7 @@
       "description": "Return your game's current FPS count.",
       "fullName": "FPS (Frames per second)",
       "functionType": "Expression",
-      "group": "",
       "name": "FPS",
-      "private": false,
       "sentence": "",
       "events": [
         {
@@ -51,6 +49,9 @@
           ]
         }
       ],
+      "expressionType": {
+        "type": "expression"
+      },
       "parameters": [],
       "objectGroups": []
     },
@@ -58,9 +59,7 @@
       "description": "Return your game's current FPS count, with more control over rounding.",
       "fullName": "Precise FPS (Frames per second)",
       "functionType": "Expression",
-      "group": "",
       "name": "PreciseFPS",
-      "private": false,
       "sentence": "",
       "events": [
         {
@@ -78,15 +77,14 @@
           ]
         }
       ],
+      "expressionType": {
+        "type": "expression"
+      },
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The accuracy of the FPS",
           "longDescription": "This tells how many numbers after the period should be shown.",
           "name": "accuracy",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "expression"
         }
       ],
@@ -101,12 +99,9 @@
       "objectType": "TextObject::Text",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPreEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -128,22 +123,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TextObject::Text",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "FPS::FPSDisplayer",
               "type": "behavior"
             }
@@ -162,7 +149,9 @@
           "hidden": false,
           "name": "prefix"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     }
-  ]
+  ],
+  "eventsBasedObjects": []
 }

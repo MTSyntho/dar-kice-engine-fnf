@@ -1,7 +1,6 @@
 {
   "author": "",
   "category": "",
-  "description": "This extension allows to restyle a sprite, a tiled sprite or a panel sprite.\n\nIt can be used to:\n- Change the color of player short according to its team color.\n- Add small color variation to trees of a forest.\n- Restyle objects to match other assets.\n\nThis extension is experimental and might no longer work in future version of GDevelop.",
   "extensionNamespace": "",
   "fullName": "Object recolorizer (experimental)",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_color_colour_palette_paint_brush.svg",
   "shortDescription": "Independently change the colors of a sprite, a tiled sprite or a panel sprite.",
   "version": "0.1.1",
+  "description": "This extension allows to restyle a sprite, a tiled sprite or a panel sprite.\n\nIt can be used to:\n- Change the color of player short according to its team color.\n- Add small color variation to trees of a forest.\n- Restyle objects to match other assets.\n\nThis extension is experimental and might no longer work in future version of GDevelop.",
   "origin": {
     "identifier": "Recolorizer",
     "name": "gdevelop-extension-store"
@@ -32,7 +32,6 @@
       "description": "Define JavaScript classes.",
       "fullName": "Define JavaScript classes",
       "functionType": "Action",
-      "group": "",
       "name": "DefineJavaScript",
       "private": true,
       "sentence": "Define JavaScript classes",
@@ -84,12 +83,9 @@
       "objectType": "Sprite",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onCreated",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -117,22 +113,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "Sprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::SpriteRecolorizer",
               "type": "behavior"
             }
@@ -143,9 +131,7 @@
           "description": "Replace a given color of an object with another one. The scope allows to change similar colors at once.",
           "fullName": "Recolorize",
           "functionType": "Action",
-          "group": "",
           "name": "Recolorize",
-          "private": false,
           "sentence": "Recolorize _PARAM0_ from color _PARAM2_ to color _PARAM3_ within a scope of  hue: _PARAM4_° saturation: _PARAM5_% lightness: _PARAM6_%",
           "events": [
             {
@@ -158,73 +144,40 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "Sprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::SpriteRecolorizer",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Origin color",
-              "longDescription": "",
               "name": "OriginColor",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "color"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Target color",
-              "longDescription": "",
               "name": "TargetColor",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "color"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Hue scope (from 0° to 180°)",
-              "longDescription": "",
               "name": "HueScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Saturation scope (in percent)",
-              "longDescription": "",
               "name": "SaturationScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Lightness scope (in percent)",
-              "longDescription": "",
               "name": "LightnessScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -234,9 +187,7 @@
           "description": "Set back the original colors of an object.",
           "fullName": "Reset color",
           "functionType": "Action",
-          "group": "",
           "name": "ResetColor",
-          "private": false,
           "sentence": "Reset the colors of _PARAM0_",
           "events": [
             {
@@ -249,22 +200,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "Sprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::SpriteRecolorizer",
               "type": "behavior"
             }
@@ -272,12 +215,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -290,22 +230,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "Sprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::SpriteRecolorizer",
               "type": "behavior"
             }
@@ -313,12 +245,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onDestroy",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -353,22 +282,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "Sprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::SpriteRecolorizer",
               "type": "behavior"
             }
@@ -376,7 +297,8 @@
           "objectGroups": []
         }
       ],
-      "propertyDescriptors": []
+      "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
     },
     {
       "description": "Independently change the colors of a tiled sprite.",
@@ -385,12 +307,9 @@
       "objectType": "TiledSpriteObject::TiledSprite",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onCreated",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -418,22 +337,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::TiledSpriteRecolorizer",
               "type": "behavior"
             }
@@ -444,9 +355,7 @@
           "description": "Replace a given color of an object with another one. The scope allows to change similar colors at once.",
           "fullName": "Recolorize",
           "functionType": "Action",
-          "group": "",
           "name": "Recolorize",
-          "private": false,
           "sentence": "Recolorize _PARAM0_ from color _PARAM2_ to color _PARAM3_ within a scope of  hue: _PARAM4_° saturation: _PARAM5_% lightness: _PARAM6_%",
           "events": [
             {
@@ -459,73 +368,40 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::TiledSpriteRecolorizer",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Origin color",
-              "longDescription": "",
               "name": "OriginColor",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "color"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Target color",
-              "longDescription": "",
               "name": "TargetColor",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "color"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Hue scope (from 0° to 180°)",
-              "longDescription": "",
               "name": "HueScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Saturation scope (in percent)",
-              "longDescription": "",
               "name": "SaturationScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Lightness scope (in percent)",
-              "longDescription": "",
               "name": "LightnessScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -535,9 +411,7 @@
           "description": "Set back the original colors of an object.",
           "fullName": "Reset color",
           "functionType": "Action",
-          "group": "",
           "name": "ResetColor",
-          "private": false,
           "sentence": "Reset the colors of _PARAM0_",
           "events": [
             {
@@ -550,22 +424,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::TiledSpriteRecolorizer",
               "type": "behavior"
             }
@@ -573,12 +439,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -591,22 +454,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::TiledSpriteRecolorizer",
               "type": "behavior"
             }
@@ -614,12 +469,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onDestroy",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -654,22 +506,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::TiledSpriteRecolorizer",
               "type": "behavior"
             }
@@ -677,7 +521,8 @@
           "objectGroups": []
         }
       ],
-      "propertyDescriptors": []
+      "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
     },
     {
       "description": "Independently change the colors of a panel sprite.",
@@ -686,12 +531,9 @@
       "objectType": "PanelSpriteObject::PanelSprite",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onCreated",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -719,22 +561,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "PanelSpriteObject::PanelSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::PanelSpriteRecolorizer",
               "type": "behavior"
             }
@@ -745,9 +579,7 @@
           "description": "Replace a given color of an object with another one. The scope allows to change similar colors at once.",
           "fullName": "Recolorize",
           "functionType": "Action",
-          "group": "",
           "name": "Recolorize",
-          "private": false,
           "sentence": "Recolorize _PARAM0_ from color _PARAM2_ to color _PARAM3_ within a scope of  hue: _PARAM4_° saturation: _PARAM5_% lightness: _PARAM6_%",
           "events": [
             {
@@ -760,73 +592,40 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "PanelSpriteObject::PanelSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::PanelSpriteRecolorizer",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Origin color",
-              "longDescription": "",
               "name": "OriginColor",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "color"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Target color",
-              "longDescription": "",
               "name": "TargetColor",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "color"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Hue scope (from 0° to 180°)",
-              "longDescription": "",
               "name": "HueScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Saturation scope (in percent)",
-              "longDescription": "",
               "name": "SaturationScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Lightness scope (in percent)",
-              "longDescription": "",
               "name": "LightnessScope",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -836,9 +635,7 @@
           "description": "Set back the original colors of an object.",
           "fullName": "Reset color",
           "functionType": "Action",
-          "group": "",
           "name": "ResetColor",
-          "private": false,
           "sentence": "Reset the colors of _PARAM0_",
           "events": [
             {
@@ -851,22 +648,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "PanelSpriteObject::PanelSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::PanelSpriteRecolorizer",
               "type": "behavior"
             }
@@ -874,12 +663,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -892,22 +678,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "PanelSpriteObject::PanelSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::PanelSpriteRecolorizer",
               "type": "behavior"
             }
@@ -915,12 +693,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onDestroy",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -955,22 +730,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "PanelSpriteObject::PanelSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Recolorizer::PanelSpriteRecolorizer",
               "type": "behavior"
             }
@@ -978,7 +745,9 @@
           "objectGroups": []
         }
       ],
-      "propertyDescriptors": []
+      "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
     }
-  ]
+  ],
+  "eventsBasedObjects": []
 }

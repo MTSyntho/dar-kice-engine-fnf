@@ -1,7 +1,6 @@
 {
   "author": "Ulises Freitas <ulises.freitas@gmail.com>",
   "category": "",
-  "description": "In an expression, use `Choose::RandomString` or `Choose::RandomNumber` and set the values you want to randomize separated by commas.",
   "extensionNamespace": "",
   "fullName": "Choose a random value",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/dice-multiple.svg",
   "shortDescription": "Choose a random value in a list of strings or numbers.",
   "version": "1.0.0",
+  "description": "In an expression, use `Choose::RandomString` or `Choose::RandomNumber` and set the values you want to randomize separated by commas.",
   "origin": {
     "identifier": "Choose",
     "name": "gdevelop-extension-store"
@@ -27,9 +27,7 @@
       "description": "Choose randomly between comma-separated strings.",
       "fullName": "Choose randomly between comma-separated strings",
       "functionType": "StringExpression",
-      "group": "",
       "name": "RandomString",
-      "private": false,
       "sentence": "Choose between these values: _PARAM1_",
       "events": [
         {
@@ -40,15 +38,14 @@
           "eventsSheetExpanded": true
         }
       ],
+      "expressionType": {
+        "type": "string"
+      },
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The string containing all options to choose randomly from, separated by commas",
           "longDescription": "Example: \"option1,option2,option3\"",
           "name": "ChoicesString",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         }
       ],
@@ -58,9 +55,7 @@
       "description": "Choose a number randomly between comma-separated numbers.",
       "fullName": "Choose a number randomly between comma-separated numbers",
       "functionType": "Expression",
-      "group": "",
       "name": "RandomNumber",
-      "private": false,
       "sentence": "Choose between these values: _PARAM1_",
       "events": [
         {
@@ -71,20 +66,20 @@
           "eventsSheetExpanded": true
         }
       ],
+      "expressionType": {
+        "type": "expression"
+      },
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "The string containing all numbers to choose randomly from, separated by commas",
           "longDescription": "Example: \"10,20,30\"",
           "name": "NumbersChoiceString",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         }
       ],
       "objectGroups": []
     }
   ],
-  "eventsBasedBehaviors": []
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
 }

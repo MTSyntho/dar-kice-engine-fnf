@@ -1,7 +1,6 @@
 {
   "author": "",
   "category": "",
-  "description": "Go to the resources tab then scan for JSON files, then use this extension to load the filename only (exclude the file path)",
   "extensionNamespace": "",
   "fullName": "FnFJSONLoader",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "",
   "shortDescription": "",
   "version": "",
+  "description": "Go to the resources tab then scan for JSON files, then use this extension to load the filename only (exclude the file path)",
   "tags": [],
   "authorIds": [
     "rotBq28wITdtfsrE7McHQri4k2w2"
@@ -20,9 +20,7 @@
       "description": "Load FNF json filename ",
       "fullName": "Load FNF json filename ",
       "functionType": "Action",
-      "group": "",
       "name": "LoadJSONFile",
-      "private": false,
       "sentence": "Load FNF json filename _PARAM1_ to scene structure variable _PARAM2_",
       "events": [
         {
@@ -35,23 +33,13 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "FileName",
-          "longDescription": "",
           "name": "FileName",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         },
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "SceneVariable",
-          "longDescription": "",
           "name": "SceneVariable",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "string"
         }
       ],

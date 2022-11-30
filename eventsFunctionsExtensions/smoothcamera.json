@@ -1,7 +1,6 @@
 {
   "author": "ItsIceCreeperPE",
   "category": "",
-  "description": "Center Camera On Object With Smooth Movement And Easy To Use",
   "extensionNamespace": "",
   "fullName": "Smooth Camera",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "",
   "shortDescription": "Center Camera On Object With Smooth Movement",
   "version": "1.0.0",
+  "description": "Center Camera On Object With Smooth Movement And Easy To Use",
   "tags": [
     "Camera",
     "Align"
@@ -23,7 +23,6 @@
       "functionType": "Action",
       "group": "Smooth Camera",
       "name": "SmoothCamera",
-      "private": false,
       "sentence": "Center Camera On _PARAM1_",
       "events": [
         {
@@ -59,13 +58,8 @@
       ],
       "parameters": [
         {
-          "codeOnly": false,
-          "defaultValue": "",
           "description": "Object To Center Camera On",
-          "longDescription": "",
           "name": "Object",
-          "optional": false,
-          "supplementaryInformation": "",
           "type": "objectList"
         }
       ],
@@ -85,7 +79,6 @@
           "functionType": "Action",
           "group": "Smooth Camera",
           "name": "SmoothCamera",
-          "private": false,
           "sentence": "Center Camera On _PARAM0_",
           "events": [
             {
@@ -121,22 +114,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "SmoothCamera::SmoothCamera",
               "type": "behavior"
             }
@@ -144,7 +128,9 @@
           "objectGroups": []
         }
       ],
-      "propertyDescriptors": []
+      "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
     }
-  ]
+  ],
+  "eventsBasedObjects": []
 }

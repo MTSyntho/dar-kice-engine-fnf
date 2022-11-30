@@ -1,7 +1,6 @@
 {
   "author": "4ian",
   "category": "",
-  "description": "Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.",
   "extensionNamespace": "",
   "fullName": "Parallax for Tiled Sprite",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/image-move.svg",
   "shortDescription": "Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.",
   "version": "1.0.1",
+  "description": "Behaviors to animate Tiled Sprite objects in the background, following the camera with a parallax effect.",
   "origin": {
     "identifier": "Parallax",
     "name": "gdevelop-extension-store"
@@ -31,12 +31,9 @@
       "objectType": "TiledSpriteObject::TiledSprite",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -78,22 +75,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Parallax::HorizontalTiledSpriteParallax",
               "type": "behavior"
             }
@@ -122,7 +111,8 @@
           "hidden": false,
           "name": "FollowedLayer"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     },
     {
       "description": "Move the image of a Tiled Sprite to follow the camera vertically with a parallax effect. After adding this to an object, put the object on a layer that is not moving, behind the layer that is followed (for example, a layer called \"Background\").",
@@ -131,12 +121,9 @@
       "objectType": "TiledSpriteObject::TiledSprite",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPostEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -178,22 +165,14 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
               "supplementaryInformation": "TiledSpriteObject::TiledSprite",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Parallax::VerticalTiledSpriteParallax",
               "type": "behavior"
             }
@@ -222,7 +201,9 @@
           "hidden": false,
           "name": "FollowedLayer"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     }
-  ]
+  ],
+  "eventsBasedObjects": []
 }

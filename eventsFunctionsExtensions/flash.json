@@ -1,7 +1,6 @@
 {
   "author": "@4ian",
   "category": "",
-  "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
   "extensionNamespace": "",
   "fullName": "Flash (blink)",
   "helpPath": "",
@@ -10,6 +9,7 @@
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg",
   "shortDescription": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
   "version": "1.0.0",
+  "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
   "origin": {
     "identifier": "Flash",
     "name": "gdevelop-extension-store"
@@ -35,12 +35,9 @@
       "objectType": "",
       "eventsFunctions": [
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "doStepPreEvents",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -176,22 +173,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Flash::Flash",
               "type": "behavior"
             }
@@ -202,9 +190,7 @@
           "description": "Make the specified object(s) blink for the given duration.",
           "fullName": "Flash (blink)",
           "functionType": "Action",
-          "group": "",
           "name": "Flash",
-          "private": false,
           "sentence": "Make _PARAM0_ blink for _PARAM2_ seconds",
           "events": [
             {
@@ -257,33 +243,19 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Flash::Flash",
               "type": "behavior"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Duration of the blinking, in seconds",
-              "longDescription": "",
               "name": "FlashDuration",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "expression"
             }
           ],
@@ -293,9 +265,7 @@
           "description": "Check if the specified objects are flashing.",
           "fullName": "Is object flashing",
           "functionType": "Condition",
-          "group": "",
           "name": "IsFlashing",
-          "private": false,
           "sentence": "_PARAM0_ is flashing",
           "events": [
             {
@@ -339,22 +309,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Flash::Flash",
               "type": "behavior"
             }
@@ -362,12 +323,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onOwnerRemovedFromScene",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -389,22 +347,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Flash::Flash",
               "type": "behavior"
             }
@@ -412,12 +361,9 @@
           "objectGroups": []
         },
         {
-          "description": "",
           "fullName": "",
           "functionType": "Action",
-          "group": "",
           "name": "onDeActivate",
-          "private": false,
           "sentence": "",
           "events": [
             {
@@ -439,22 +385,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Flash::Flash",
               "type": "behavior"
             }
@@ -465,9 +402,7 @@
           "description": "Stop the flashing of the specified object.",
           "fullName": "Stop flashing",
           "functionType": "Action",
-          "group": "",
           "name": "Stop",
-          "private": false,
           "sentence": "Stop flashing _PARAM0_",
           "events": [
             {
@@ -508,22 +443,13 @@
           ],
           "parameters": [
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Object",
-              "longDescription": "",
               "name": "Object",
-              "optional": false,
-              "supplementaryInformation": "",
               "type": "object"
             },
             {
-              "codeOnly": false,
-              "defaultValue": "",
               "description": "Behavior",
-              "longDescription": "",
               "name": "Behavior",
-              "optional": false,
               "supplementaryInformation": "Flash::Flash",
               "type": "behavior"
             }
@@ -562,7 +488,9 @@
           "hidden": true,
           "name": "FlashDuration"
         }
-      ]
+      ],
+      "sharedPropertyDescriptors": []
     }
-  ]
+  ],
+  "eventsBasedObjects": []
 }

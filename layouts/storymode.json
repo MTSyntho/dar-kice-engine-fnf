@@ -3,9 +3,6 @@
   "disableInputWhenNotFocused": true,
   "mangledName": "storymode",
   "name": "storymode",
-  "oglFOV": 90,
-  "oglZFar": 500,
-  "oglZNear": 1,
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -218,6 +215,21 @@
       "x": 187,
       "y": 794,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "normalnote",
+      "persistentUuid": "f8535563-f294-4047-8c7f-47b244c6d540",
+      "width": 0,
+      "x": 1242,
+      "y": 838,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2032,6 +2044,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "normalnote",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Normal Only Works!\nHard Mode Chart Loads!",
+      "font": "assets\\fonts\\vcr.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      }
     }
   ],
   "events": [
@@ -2284,11 +2317,12 @@
         },
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"tutorial\""
+            "\"tutorial\"",
+            ""
           ]
         }
       ]
@@ -2329,11 +2363,12 @@
         },
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"tutorial\""
+            "\"tutorial\"",
+            ""
           ]
         }
       ]
@@ -2374,11 +2409,12 @@
         },
         {
           "type": {
-            "value": "PushScene"
+            "value": "Scene"
           },
           "parameters": [
             "",
-            "\"tutorial\""
+            "\"tutorial\"",
+            ""
           ]
         }
       ]
