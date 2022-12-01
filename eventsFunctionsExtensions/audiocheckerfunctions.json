@@ -29,37 +29,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "\nconst SoundManager = runtimeScene.getGame().getSoundManager();\nconst FullPath = eventsFunctionContext.getArgument(\"Filename\");\nconst FileName = SoundManager._availableResources[FullPath].file;\n\neventsFunctionContext.returnValue = (SoundManager._loadedSounds[FileName] != undefined);",
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        }
-      ],
-      "parameters": [
-        {
-          "description": "Filename",
-          "name": "Filename",
-          "type": "soundfile"
-        }
-      ],
-      "objectGroups": []
-    },
-    {
-      "description": "Check if music is preloaded",
-      "fullName": "Check if music is preloaded",
-      "functionType": "Condition",
-      "group": "Audio",
-      "name": "CheckIfMusicIsPreloaded",
-      "sentence": "Check if music _PARAM1_ is preloaded",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "\nconst SoundManager = runtimeScene.getGame().getSoundManager();\nconst FullPath = eventsFunctionContext.getArgument(\"Filename\");\nconst FileName = SoundManager._availableResources[FullPath].file;\n\neventsFunctionContext.returnValue = (SoundManager._loadedMusics[FileName] != undefined);",
+          "inlineCode": "const SoundManager = runtimeScene.getSoundManager();\nconst FullPath = eventsFunctionContext.getArgument(\"Filename\");\nconst FileName = SoundManager._availableResources[FullPath].file;\n\neventsFunctionContext.returnValue = false;\n\nif(SoundManager._loadedSounds[FileName] != undefined) {\n    eventsFunctionContext.returnValue = SoundManager._loadedSounds[FileName].state() == \"loaded\";\n}",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false

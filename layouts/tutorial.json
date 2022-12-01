@@ -471,6 +471,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LoadingText",
+      "persistentUuid": "0548a026-0c96-4e3a-b6ab-0c971a4f6b6b",
+      "width": 0,
+      "x": 29,
+      "y": 18,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3867,6 +3882,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LoadingText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Loading Sound Files...",
+      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -3897,14 +3933,6 @@
           },
           "parameters": [
             "gftutorial"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayAnimation"
-          },
-          "parameters": [
-            "countdown"
           ]
         },
         {
@@ -3998,11 +4026,19 @@
         },
         {
           "type": {
-            "value": "PreloadMusic"
+            "value": "PreloadSound"
           },
           "parameters": [
             "",
             "assets\\audios\\EPICsongs\\tutorial\\Inst.ogg"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "countdown"
           ]
         }
       ]
@@ -4012,7 +4048,7 @@
       "conditions": [
         {
           "type": {
-            "value": "AudioCheckerFunctions::CheckIfMusicIsPreloaded"
+            "value": "AudioCheckerFunctions::CheckIfSoundIsPreloaded"
           },
           "parameters": [
             "",
@@ -4023,6 +4059,57 @@
       ],
       "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "remove loading text and start the game",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "LoadingText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "countdown",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "countdown"
+              ]
+            }
+          ]
+        },
         {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
@@ -4060,7 +4147,7 @@
             },
             {
               "type": {
-                "value": "PlayMusicCanal"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
@@ -4636,7 +4723,7 @@
           "conditions": [
             {
               "type": {
-                "value": "MusicStopped"
+                "value": "SoundStopped"
               },
               "parameters": [
                 "",
@@ -4716,7 +4803,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Gameplay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4860,7 +4946,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Player",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -5198,7 +5283,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Pause",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5284,7 +5368,7 @@
                     },
                     {
                       "type": {
-                        "value": "MusicPaused"
+                        "value": "SoundPaused"
                       },
                       "parameters": [
                         "",
@@ -5596,7 +5680,7 @@
                 },
                 {
                   "type": {
-                    "value": "MusicStopped"
+                    "value": "SoundStopped"
                   },
                   "parameters": [
                     "",
