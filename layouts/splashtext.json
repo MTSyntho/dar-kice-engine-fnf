@@ -24,7 +24,7 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "text",
+      "name": "storagePlaceholder",
       "type": "string",
       "value": ""
     }
@@ -92,21 +92,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 1794,
-      "layer": "anywhere",
-      "name": "anywhere",
-      "persistentUuid": "f58dacdb-c46f-448a-b6a4-ddd00964b4be",
-      "width": 2334,
-      "x": -235,
-      "y": -357,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "fridaynightfunkin",
@@ -161,6 +146,21 @@
       "x": 475,
       "y": 699,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "load",
+      "name": "loadsm",
+      "persistentUuid": "9a69d00e-779c-49e3-b082-5160fcacdcf7",
+      "width": 0,
+      "x": 43,
+      "y": 994,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -273,47 +273,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "anywhere",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\placeholders\\blank.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "friday",
@@ -395,6 +354,27 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "loadsm",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Loading Start Menu...",
+      "font": "assets\\fonts\\vcr.ttf",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -411,15 +391,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"splash\""
-          ]
-        },
         {
           "type": {
             "value": "HideLayer"
@@ -473,16 +444,6 @@
         },
         {
           "type": {
-            "value": "Opacity"
-          },
-          "parameters": [
-            "anywhere",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "PlayMusicCanal"
           },
           "parameters": [
@@ -493,6 +454,56 @@
             "100",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"settings\"",
+            "\"oldStuff\"",
+            "",
+            "storagePlaceholder"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "oldStuff",
+            "=",
+            "Variable(storagePlaceholder)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "LireFichierExp"
+          },
+          "parameters": [
+            "\"settings\"",
+            "\"watermarks\"",
+            "",
+            "storagePlaceholder"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "Variable(storagePlaceholder)"
+          ]
         }
       ]
     },
@@ -501,17 +512,22 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "DepartScene"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "2"
+            ""
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
         {
           "type": {
             "value": "ShowLayer"
@@ -520,25 +536,15 @@
             "newgroundslogo",
             "\"newgrounds\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "4"
+            "2.5"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "ShowLayer"
@@ -547,25 +553,15 @@
             "newgroundslogo",
             "\"newgroundslogo\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "5"
+            "0.5"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "HideLayer"
@@ -583,25 +579,15 @@
             "newgroundslogo",
             "\"newgroundslogo\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "6"
+            "0.5"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "ShowLayer"
@@ -610,25 +596,15 @@
             "",
             "\"randomtext\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "7"
+            "2"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "HideLayer"
@@ -637,25 +613,7 @@
             "",
             "\"randomtext\""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "7.1"
-          ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "ShowLayer"
@@ -673,25 +631,15 @@
             "friday",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "7.8"
+            "0.7"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Montre"
@@ -700,25 +648,15 @@
             "night",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "8.6"
+            "0.7"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
             "value": "Montre"
@@ -727,84 +665,17 @@
             "funkin",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "oldStuff",
-            "=",
-            "0"
-          ]
         },
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "9"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"fridaynightfunkin\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"StartMenu\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "oldStuff",
-            "=",
             "1"
           ]
         },
         {
           "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"splash\"",
-            ">=",
-            "9"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
             "value": "HideLayer"
           },
           "parameters": [
@@ -814,12 +685,67 @@
         },
         {
           "type": {
-            "value": "Scene"
+            "value": "ShowLayer"
           },
           "parameters": [
             "",
-            "\"oldStartMenu\"",
-            ""
+            "\"load\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "oldStuff",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"StartMenu\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "oldStuff",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"oldStartMenu\"",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -893,16 +819,25 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 134217728,
-      "ambientLightColorG": 6032144,
-      "ambientLightColorR": 7519544,
+      "ambientLightColorB": 8674448,
+      "ambientLightColorG": 6054000,
+      "ambientLightColorR": 11887576,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "anywhere",
+      "name": "load",
       "visibility": false,
       "cameras": [],
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "SpriteRecolorizer",
+      "type": "Recolorizer::SpriteRecolorizer"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }

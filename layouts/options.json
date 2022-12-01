@@ -43,8 +43,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "name": "animatedbg",
+      "layer": "menus",
+      "name": "oldmenus",
       "persistentUuid": "9dca8ab6-bcf5-4648-af59-f266d5a45538",
       "width": 0,
       "x": 152,
@@ -98,6 +98,36 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "watermarks",
+      "persistentUuid": "0af2be7e-d5f2-4b22-9778-3c8be6a8fac0",
+      "width": 0,
+      "x": 152,
+      "y": 686,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "",
+      "name": "BButton",
+      "persistentUuid": "3e182246-3186-4ffc-8a64-98c8a6daf36d",
+      "width": 150,
+      "x": 1658,
+      "y": 859,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -126,7 +156,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "animatedbg",
+      "name": "oldmenus",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -134,7 +164,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "ANIMATED BGS: ",
+      "string": "OLD MENUS: ",
       "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
       "characterSize": 80,
       "color": {
@@ -184,6 +214,27 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "watermarks",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "WATERMARKS: ",
+      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -228,7 +279,7 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "animatedBgs",
+            "oldStuff",
             "=",
             "0"
           ]
@@ -240,7 +291,7 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "animatedbg",
+            "oldmenus",
             "+",
             "\"OFF\""
           ]
@@ -263,7 +314,42 @@
             "value": "VarGlobal"
           },
           "parameters": [
-            "animatedBgs",
+            "dkwatermarks",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "watermarks",
+            "+",
+            "\"OFF\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "oldStuff",
             "=",
             "1"
           ]
@@ -275,7 +361,42 @@
             "value": "TextObject::String"
           },
           "parameters": [
-            "animatedbg",
+            "oldmenus",
+            "+",
+            "\"ON\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "watermarks",
             "+",
             "\"ON\""
           ]
@@ -313,43 +434,34 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyReleased"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "BButton",
             "",
-            "Return"
+            "",
+            ""
           ]
         },
         {
           "type": {
-            "value": "VarGlobal"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
-            "animatedBgs",
-            "=",
-            "0"
+            "",
+            "Left"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "TextObject::String"
+            "value": "Scene"
           },
           "parameters": [
-            "animatedbg",
-            "=",
-            "\"ANIMATED BGS: ON\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobalTxt"
-          },
-          "parameters": [
-            "animatedBgs",
-            "=",
-            "\"1\""
+            "",
+            "\"MainMenu\"",
+            ""
           ]
         }
       ]
@@ -359,20 +471,30 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyReleased"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "oldmenus",
             "",
-            "Return"
+            "",
+            ""
           ]
         },
         {
           "type": {
-            "inverted": true,
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
             "value": "VarGlobal"
           },
           "parameters": [
-            "animatedBgs",
+            "oldStuff",
             "=",
             "0"
           ]
@@ -381,22 +503,295 @@
       "actions": [
         {
           "type": {
-            "value": "TextObject::String"
+            "value": "EcrireFichierExp"
           },
           "parameters": [
-            "animatedbg",
-            "=",
-            "\"ANIMATED BGS: OFF\""
+            "\"settings\"",
+            "\"oldStuff\"",
+            "1"
           ]
         },
         {
           "type": {
-            "value": "ModVarGlobalTxt"
+            "value": "TextObject::String"
           },
           "parameters": [
-            "animatedBgs",
+            "oldmenus",
             "=",
-            "\"0\""
+            "\"OLD MENUS: ON\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "oldStuff",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "watermarks",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"settings\"",
+            "\"watermarks\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "watermarks",
+            "=",
+            "\"WATERMARKS: ON\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "oldmenus",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "oldStuff",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"settings\"",
+            "\"oldStuff\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "oldmenus",
+            "=",
+            "\"OLD MENUS: OFF\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "oldStuff",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "watermarks",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"settings\"",
+            "\"watermarks\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "watermarks",
+            "=",
+            "\"WATERMARKS\n: OFF\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\audios\\EPIKmuzik\\freakyMenu.ogg",
+            "0",
+            "yes",
+            "100",
+            "1"
           ]
         }
       ]
@@ -435,7 +830,27 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 11868368,
+      "ambientLightColorG": 6054000,
+      "ambientLightColorR": 10174072,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "menus",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "SpriteRecolorizer",
+      "type": "Recolorizer::SpriteRecolorizer"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }

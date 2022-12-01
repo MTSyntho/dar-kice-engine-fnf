@@ -32,8 +32,8 @@
       "name": "message",
       "persistentUuid": "a964010a-072d-45a8-a552-d8b6c0415b91",
       "width": 0,
-      "x": 430,
-      "y": 498,
+      "x": 418,
+      "y": 496,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -53,6 +53,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "",
+      "name": "BButton",
+      "persistentUuid": "03e145bc-495a-4e9f-beb4-b49c1bd80946",
+      "width": 150,
+      "x": 1683,
+      "y": 868,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -69,7 +84,7 @@
       "effects": [],
       "behaviors": [],
       "string": "FREEPLAY IN DEVELOPMENT",
-      "font": "FridayNightFunkin-Regular.ttf",
+      "font": "assets\\fonts\\FridayNightFunkin-Regular.ttf",
       "characterSize": 70,
       "color": {
         "b": 255,
@@ -129,6 +144,73 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\audios\\EPIKmuzik\\freakyMenu.ogg",
+            "0",
+            "yes",
+            "100",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -155,5 +237,14 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "SpriteRecolorizer",
+      "type": "Recolorizer::SpriteRecolorizer"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }

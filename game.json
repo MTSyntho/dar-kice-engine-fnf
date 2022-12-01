@@ -17,15 +17,15 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "0.1.4",
-    "name": "Friday Night Funkin' : dar-kice Engine",
+    "version": "0.1.5",
+    "name": "Friday Night Funkin' dar kice Engine",
     "description": "dope ass friday night funkin engine made in GDevelop 5 for de easiest moddin' and optimization.\nhttps://itsicecreeperpe.itch.io/dar-kice-engine-fnf",
     "author": "ItsIceCreeperPE",
     "windowWidth": 1920,
     "windowHeight": 1080,
     "latestCompilationDirectory": "D:\\Code\\GDevelop\\GDevelop Web Exports\\dk engine fnf",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 60,
     "verticalSync": false,
     "platformSpecificAssets": {
       "android-icon-144": "assets\\icons\\android\\android-icon-144.png",
@@ -60,7 +60,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "assets\\thumbnail.png",
+      "backgroundImageResourceName": "assets\\thumbnailSimple.png",
       "gdevelopLogoStyle": "light-colored",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
@@ -94,13 +94,6 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/fonts/nokiafc22.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\fonts\\nokiafc22.ttf",
-        "userAdded": true
-      },
-      {
         "file": "assets/fonts/FridayNightFunkin-Regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -131,20 +124,6 @@
         "metadata": "",
         "name": "assets\\fonts\\vcr.ttf",
         "userAdded": false
-      },
-      {
-        "file": "assets/fonts/UAV-OSD-Mono.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\fonts\\UAV-OSD-Mono.ttf",
-        "userAdded": true
-      },
-      {
-        "file": "assets/fonts/UAV-OSD-Sans-Mono.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\fonts\\UAV-OSD-Sans-Mono.ttf",
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1255,132 +1234,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0001.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0002.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0003.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0004.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0004.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0005.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0005.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0006.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0006.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0007.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0007.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0008.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0008.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0009.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0009.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0010.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0011.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0011.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0012.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0012.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0013.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0013.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/characters/bf/idle/BF idle dance0014.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\characters\\bf\\idle\\BF idle dance0014.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/characters/gf/idle/GF Dancing Beat0001.png",
         "kind": "image",
         "metadata": "",
@@ -2436,15 +2289,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/placeholders/leftArrowSpawner.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\placeholders\\leftArrowSpawner.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/mainmenu/oldLogoBumpin/logo bumpin0000.png",
         "kind": "image",
         "metadata": "",
@@ -3300,321 +3144,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "desktop-icon-512.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "desktop-icon-512.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-192.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-192.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-96.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-48.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-icon-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "android-windowSplashScreenAnimatedIcon.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "android-windowSplashScreenAnimatedIcon.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-1024.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-1024.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-180.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-180.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-167.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-167.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-152.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-152.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-120.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-120.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-114.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-114.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-100.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-100.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-87.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-87.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-80.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-80.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-76.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-76.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-60.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-60.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-58.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-58.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-57.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-57.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-50.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-50.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-40.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-29.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ios-icon-20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ios-icon-20.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/desktop-icon-512.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\desktop-icon-512.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-windowSplashScreenAnimatedIcon.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-windowSplashScreenAnimatedIcon.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-icon-192.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-icon-192.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-icon-144.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-icon-96.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-icon-96.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-icon-72.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-icon-48.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-icon-48.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/icons/android-icon-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\icons\\android-icon-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/icons/iOS/ios-icon-1024.png",
         "kind": "image",
         "metadata": "",
@@ -4077,77 +3606,4581 @@
         "userAdded": true
       },
       {
-        "disablePreload": false,
-        "file": "eventsFunctionsExtensions/untitledextension.json",
-        "kind": "json",
+        "alwaysLoaded": false,
+        "file": "assets/virtualInput/a-btn.png",
+        "kind": "image",
         "metadata": "",
-        "name": "eventsFunctionsExtensions\\untitledextension.json",
+        "name": "assets\\virtualInput\\a-btn.png",
+        "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Left arrow button.png",
+        "file": "assets/virtualInput/b-btn.png",
         "kind": "image",
         "metadata": "",
-        "name": "Left arrow button.png",
+        "name": "assets\\virtualInput\\b-btn.png",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/69b5c8f8989a271fbbe9d2f68763f7e820044f505b0d0b66874bd20f70935a3c_Left arrow button.png",
-          "name": "Left arrow button.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Right arrow button.png",
+        "file": "assets/virtualInput/left-btn.png",
         "kind": "image",
         "metadata": "",
-        "name": "Right arrow button.png",
+        "name": "assets\\virtualInput\\left-btn.png",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/cb2f532a9cd3feb7cb8af6cdcb1de5ec074dc6aacf5c851dcd243c407aedd605_Right arrow button.png",
-          "name": "Right arrow button.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bottom arrow button.png",
+        "file": "assets/virtualInput/right-btn.png",
         "kind": "image",
         "metadata": "",
-        "name": "Bottom arrow button.png",
+        "name": "assets\\virtualInput\\right-btn.png",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/b85e77600f6f97292b3980a025303a4ece93102f73f0d3dc3cf25b146e79d380_Bottom arrow button.png",
-          "name": "Bottom arrow button.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Top arrow button.png",
+        "file": "assets/virtualInput/down-btn.png",
         "kind": "image",
         "metadata": "",
-        "name": "Top arrow button.png",
+        "name": "assets\\virtualInput\\down-btn.png",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
-          "name": "Top arrow button.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Pause button.png",
+        "file": "assets/virtualInput/up-btn.png",
         "kind": "image",
         "metadata": "",
-        "name": "Pause button.png",
+        "name": "assets\\virtualInput\\up-btn.png",
         "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/1e5b82f54cfea683880b3dbba50ae04747788a03bb48e8fc9544f5e7ee611539_Pause button.png",
-          "name": "Pause button.png"
-        }
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/virtualInput/pause-btn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\virtualInput\\pause-btn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/death/restart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\death\\restart.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ingameui/death/quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ingameui\\death\\quit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle dance/BF idle dance0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle dance\\BF idle dance0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle shaking/BF idle shaking0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle shaking\\BF idle shaking0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle shaking/BF idle shaking0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle shaking\\BF idle shaking0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle shaking/BF idle shaking0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle shaking\\BF idle shaking0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF idle shaking/BF idle shaking0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF idle shaking\\BF idle shaking0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF HEY!!/BF HEY!!0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF HEY!!\\BF HEY!!0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF hit/BF hit0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF hit\\BF hit0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/bf pre attack/bf pre attack0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\bf pre attack\\bf pre attack0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend attack/boyfriend attack0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend attack\\boyfriend attack0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/boyfriend dodge/boyfriend dodge0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\boyfriend dodge\\boyfriend dodge0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0035.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0036.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0039.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0040.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0044.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0046.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0048.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0049.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0050.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0051.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0052.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0053.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0054.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0055.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0056.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF dies/BF dies0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF dies\\BF dies0057.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT/BF NOTE LEFT0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT\\BF NOTE LEFT0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE LEFT MISS/BF NOTE LEFT MISS0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE LEFT MISS\\BF NOTE LEFT MISS0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN/BF NOTE DOWN0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN\\BF NOTE DOWN0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0020.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0023.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE DOWN MISS/BF NOTE DOWN MISS0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE DOWN MISS\\BF NOTE DOWN MISS0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP/BF NOTE UP0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP\\BF NOTE UP0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE UP MISS/BF NOTE UP MISS0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE UP MISS\\BF NOTE UP MISS0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0046.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0046.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0048.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0048.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0049.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0049.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0050.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0050.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0051.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0051.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0053.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0053.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0054.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0054.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0055.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0055.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0056.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0056.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0057.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0057.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0058.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0058.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0059.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0059.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0060.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0060.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT/BF NOTE RIGHT0061.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT\\BF NOTE RIGHT0061.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0033.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0034.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0036.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0037.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0038.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0040.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0044.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0044.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF NOTE RIGHT MISS/BF NOTE RIGHT MISS0045.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF NOTE RIGHT MISS\\BF NOTE RIGHT MISS0045.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0027.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0029.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead Loop/BF Dead Loop0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead Loop\\BF Dead Loop0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0014.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0015.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0021.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0025.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0028.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0030.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0031.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/characters/bf/BF Dead confirm/BF Dead confirm0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\characters\\bf\\BF Dead confirm\\BF Dead confirm0033.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ui/dialog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ui\\dialog.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/thumbnailSimple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\thumbnailSimple.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/nokiafc22.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\nokiafc22.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/UAV-OSD-Mono.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\fonts\\UAV-OSD-Mono.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4370,7 +8403,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "titleEnter",
+      "name": "titleEnterr",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -5321,24 +9354,372 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "9ff3ea719b4c1b7c5ec495c0cf5f536c0db687e8b33e43044da23ff04806a314",
+      "name": "AButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\a-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "710810869716ae9282270b5ed8f991c443fad644ac39bf9a5d02bf1e9beaff4a",
+      "name": "BButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\b-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "5b15807864fa4e31a41e1e85600b000f73802cc39dbe61e3048a0bcc3930ae0e",
+      "name": "LeftArrowButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SpriteRecolorizer",
+          "type": "Recolorizer::SpriteRecolorizer"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\left-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "9876fc0b759a2660d9962fd74d03fac3dab44094520ad307f0944a5a0c2e0b10",
+      "name": "BottomArrowButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SpriteRecolorizer",
+          "type": "Recolorizer::SpriteRecolorizer"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\down-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
+      "name": "TopArrowButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SpriteRecolorizer",
+          "type": "Recolorizer::SpriteRecolorizer"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\up-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "0236c9d3f392e7c67c24858c9725a423057a0586e6569a46cdb60f9ac2cf3c88",
+      "name": "RightArrowButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SpriteRecolorizer",
+          "type": "Recolorizer::SpriteRecolorizer"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\right-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "05c8c095007d0ac0b0242bd0999b9af85d00f464a0eff959f55c9413ad3401e5",
+      "name": "PauseButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\virtualInput\\pause-btn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "white",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\placeholders\\white.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
   "variables": [
     {
       "name": "weekscore",
-      "type": "string",
-      "value": "0"
+      "type": "number",
+      "value": 0
     },
     {
       "name": "diff",
       "type": "string",
       "value": "normal"
-    },
-    {
-      "name": "animatedBgs",
-      "type": "string",
-      "value": "0"
     },
     {
       "folded": true,
@@ -5349,14 +9730,19 @@
     {
       "folded": true,
       "name": "oldStuff",
-      "type": "string",
-      "value": "0"
+      "type": "number",
+      "value": 0
     },
     {
       "folded": true,
-      "name": "gdwatermarks",
+      "name": "dkwatermarks",
       "type": "string",
       "value": "1"
+    },
+    {
+      "name": "songName",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -5398,15 +9784,23 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tutorial"
+      "referenceTo": "/layouts/game"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/pause"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lose"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/audiocheckerfunctions"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/parallax"

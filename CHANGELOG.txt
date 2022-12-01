@@ -6,4 +6,13 @@ v0.0.1.4
 -i frogot :skol:
 
 v0.0.1.5
-coming soon
+-Fixed mobile support
+-Fixed desyncing(planktonfun)
+-Added new setting
+-Fixed windows build not launching[i didn't know about mac and linux builds though]
+-Added death
+-Added score but it isn't saved
+[the stage of the project is enough to make a simple cool looking fnf mod, in my opinion ~ItsIceCreeperPE]
+
+v0.0.1.6
+-coming soon

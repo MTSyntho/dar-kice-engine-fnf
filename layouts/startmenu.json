@@ -18,27 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40000000000000013,
+    "zoomFactor": 0.4004000000000001,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1179,
-      "layer": "flash",
-      "name": "white",
-      "persistentUuid": "48dff41f-c11b-4193-8ce4-bfc1ef9f0348",
-      "width": 2267,
-      "x": -157,
-      "y": -46,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -113,21 +98,84 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 305,
+      "layer": "quit",
+      "name": "quitbox",
+      "persistentUuid": "122472fb-2fd3-4bb5-a7ae-838776ced7fc",
+      "width": 2937,
+      "x": -2982,
+      "y": 397,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1197,
+      "layer": "flash",
+      "name": "white",
+      "persistentUuid": "68bb29b6-c7fd-4e11-8b9a-2c76b5ab59a9",
+      "width": 2010,
+      "x": -51,
+      "y": -52,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "quit",
+      "name": "quitconfirm",
+      "persistentUuid": "1bceece0-6220-4d6c-98a9-4497ebbb24c5",
+      "width": 0,
+      "x": 57,
+      "y": 477,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "quit",
+      "name": "quityes",
+      "persistentUuid": "c2aa963e-4789-4748-9ad0-de7a42f98245",
+      "width": 0,
+      "x": 76,
+      "y": 587,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "quit",
+      "name": "quitno",
+      "persistentUuid": "ffad8a35-a3ee-4c74-ac35-22865abb034c",
+      "width": 0,
+      "x": 297,
+      "y": 587,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "white",
-      "tags": "",
-      "texture": "assets\\placeholders\\white.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
     {
       "assetStoreId": "",
       "name": "bg",
@@ -209,6 +257,10 @@
         {
           "name": "SpriteRecolorizer",
           "type": "Recolorizer::SpriteRecolorizer"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -412,12 +464,12 @@
           ]
         },
         {
-          "name": "",
+          "name": "oldaf",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -445,8 +497,8 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
+              "looping": true,
+              "timeBetweenFrames": 0.05000000074505806,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -685,23 +737,6 @@
                     "y": 0
                   },
                   "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\mainmenu\\oldLogoBumpin\\logo bumpin0015.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
                 }
               ]
             }
@@ -717,7 +752,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "idle",
@@ -1662,14 +1702,118 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "quitbox",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\ui\\dialog.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "quitconfirm",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "ARE YOU SURE YOU WANNA QUIT?",
+      "font": "assets\\fonts\\UAV-OSD-Mono.ttf",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "quityes",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "YES",
+      "font": "assets\\fonts\\nokiafc22.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "quitno",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "NO",
+      "font": "assets\\fonts\\nokiafc22.ttf",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
     }
   ],
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1731,19 +1875,12 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Opacity"
           },
           "parameters": [
-            "white"
-          ]
-        },
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"flash\""
+            "white",
+            "=",
+            "255"
           ]
         },
         {
@@ -1752,7 +1889,60 @@
           },
           "parameters": [
             "",
-            "\"clickanywhere\""
+            "\"flash\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "white",
+            "Tween",
+            "\"start\"",
+            "0",
+            "\"linear\"",
+            "1000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"quit\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "quitconfirm",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "quityes",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::Opacity"
+          },
+          "parameters": [
+            "quitno",
+            "=",
+            "0"
           ]
         }
       ]
@@ -1814,20 +2004,12 @@
       "actions": [
         {
           "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "titleEnter",
-            "\"flash\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
+            "value": "Opacity"
           },
           "parameters": [
             "white",
-            "\"flash\""
+            "=",
+            "255"
           ]
         },
         {
@@ -1837,6 +2019,20 @@
           "parameters": [
             "",
             "\"flash\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "white",
+            "Tween",
+            "\"flash\"",
+            "0",
+            "\"linear\"",
+            "1000",
+            ""
           ]
         },
         {
@@ -1855,6 +2051,54 @@
           },
           "parameters": [
             "titleEnter"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\"",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::IsPlaying"
+              },
+              "parameters": [
+                "white",
+                "Tween",
+                "\"start\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "white",
+                "Tween",
+                "\"start\"",
+                "yes"
+              ]
+            }
           ]
         }
       ]
@@ -1875,20 +2119,12 @@
       "actions": [
         {
           "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "titleEnter",
-            "\"flash\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
+            "value": "Opacity"
           },
           "parameters": [
             "white",
-            "\"flash\""
+            "=",
+            "255"
           ]
         },
         {
@@ -1898,6 +2134,20 @@
           "parameters": [
             "",
             "\"flash\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "white",
+            "Tween",
+            "\"flash\"",
+            "0",
+            "\"linear\"",
+            "1000",
+            ""
           ]
         },
         {
@@ -1917,6 +2167,54 @@
           "parameters": [
             "titleEnter"
           ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\"",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::IsPlaying"
+              },
+              "parameters": [
+                "white",
+                "Tween",
+                "\"start\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "white",
+                "Tween",
+                "\"start\"",
+                "yes"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1925,13 +2223,12 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareObjectTimer"
+            "value": "VarGlobal"
           },
           "parameters": [
-            "titleEnter",
-            "\"flash\"",
-            ">=",
-            "3"
+            "oldStuff",
+            "=",
+            "1"
           ]
         }
       ],
@@ -1942,7 +2239,189 @@
           },
           "parameters": [
             "",
-            "\"MainMenu\"",
+            "\"oldStartMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\audios\\EPIKmuzik\\freakyMenu.ogg",
+            "0",
+            "yes",
+            "100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "dkwatermarks",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "logoBumpin",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"quit\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionYTween"
+          },
+          "parameters": [
+            "logoBumpin",
+            "Tween",
+            "\"quit\"",
+            "-806",
+            "\"easeInOutQuad\"",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionYTween"
+          },
+          "parameters": [
+            "titleEnter",
+            "Tween",
+            "\"quit\"",
+            "1227",
+            "\"easeInOutQuad\"",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionXTween"
+          },
+          "parameters": [
+            "quitbox",
+            "Tween",
+            "\"quitbox\"",
+            "-472",
+            "\"easeInOutQuad\"",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "quitconfirm",
+            "Tween",
+            "\"fade\"",
+            "255",
+            "\"linear\"",
+            "1000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "quityes",
+            "Tween",
+            "\"fade\"",
+            "255",
+            "\"linear\"",
+            "1000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectOpacityTween"
+          },
+          "parameters": [
+            "quitno",
+            "Tween",
+            "\"fade\"",
+            "255",
+            "\"linear\"",
+            "1000",
             ""
           ]
         }
@@ -1995,6 +2474,17 @@
       "effects": []
     },
     {
+      "ambientLightColorB": 8139776,
+      "ambientLightColorG": 6054000,
+      "ambientLightColorR": 14354600,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "quit",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 83886080,
       "ambientLightColorG": 6033120,
       "ambientLightColorR": 7267904,
@@ -2010,6 +2500,10 @@
     {
       "name": "SpriteRecolorizer",
       "type": "Recolorizer::SpriteRecolorizer"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

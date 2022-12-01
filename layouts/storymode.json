@@ -227,9 +227,39 @@
       "name": "normalnote",
       "persistentUuid": "f8535563-f294-4047-8c7f-47b244c6d540",
       "width": 0,
-      "x": 1242,
-      "y": 838,
+      "x": 1187,
+      "y": 843,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "",
+      "name": "AButton",
+      "persistentUuid": "d5932b91-fec3-4554-9542-bdf979ecd8fd",
+      "width": 150,
+      "x": 1517,
+      "y": 891,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "",
+      "name": "BButton",
+      "persistentUuid": "c6ad1107-a74e-4836-bce4-c35eb7105c9f",
+      "width": 150,
+      "x": 1712,
+      "y": 891,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2057,13 +2087,13 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Normal Only Works!\nHard Mode Chart Loads!",
+      "string": "Hard Mode Charts ONLY!!!\nsorry~~",
       "font": "assets\\fonts\\vcr.ttf",
       "characterSize": 50,
       "color": {
-        "b": 28,
-        "g": 231,
-        "r": 248
+        "b": 31,
+        "g": 0,
+        "r": 255
       }
     }
   ],
@@ -2113,6 +2143,43 @@
           "parameters": [
             "",
             "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
           ]
         }
       ],
@@ -2307,7 +2374,32 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "diff",
+            "=",
+            "\"Easy\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"game\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Animation"
           },
           "parameters": [
             "diff",
@@ -2317,11 +2409,43 @@
         },
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "AButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "diff",
+            "=",
+            "\"Easy\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"tutorial\"",
+            "\"game\"",
             ""
           ]
         }
@@ -2353,7 +2477,32 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "diff",
+            "=",
+            "\"Normal\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"game\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Animation"
           },
           "parameters": [
             "diff",
@@ -2363,11 +2512,43 @@
         },
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "AButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "diff",
+            "=",
+            "\"Normal\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"tutorial\"",
+            "\"game\"",
             ""
           ]
         }
@@ -2399,7 +2580,32 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "diff",
+            "=",
+            "\"Hard\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"game\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Animation"
           },
           "parameters": [
             "diff",
@@ -2409,12 +2615,74 @@
         },
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "AButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "diff",
+            "=",
+            "\"Hard\""
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"tutorial\"",
+            "\"game\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\audios\\EPIKmuzik\\freakyMenu.ogg",
+            "0",
+            "yes",
+            "100",
+            "1"
           ]
         }
       ]
@@ -2442,7 +2710,27 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 1,
+      "ambientLightColorG": 6054000,
+      "ambientLightColorR": 12018552,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "mobile",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "SpriteRecolorizer",
+      "type": "Recolorizer::SpriteRecolorizer"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }

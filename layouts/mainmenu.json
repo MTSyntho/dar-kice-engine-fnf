@@ -188,6 +188,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "top",
+      "name": "BButton",
+      "persistentUuid": "b2f9faad-d83d-4c7f-86b2-feaaf9e82cdd",
+      "width": 150,
+      "x": 1689,
+      "y": 882,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1286,6 +1301,43 @@
       "conditions": [
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"StartMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "KeyPressed"
           },
           "parameters": [
@@ -1357,11 +1409,11 @@
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "Left"
+            "\"Left\""
           ]
         }
       ],
@@ -1544,11 +1596,11 @@
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "Left"
+            "\"Left\""
           ]
         }
       ],
@@ -1656,11 +1708,11 @@
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "Left"
+            "\"Left\""
           ]
         }
       ],
@@ -1843,11 +1895,11 @@
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "Left"
+            "\"Left\""
           ]
         }
       ],
@@ -1954,11 +2006,11 @@
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "Left"
+            "\"Left\""
           ]
         }
       ],
@@ -2095,6 +2147,63 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "oldStuff",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"oldMainMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\audios\\EPIKmuzik\\freakyMenu.ogg",
+            "0",
+            "yes",
+            "100",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -2165,5 +2274,14 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "SpriteRecolorizer",
+      "type": "Recolorizer::SpriteRecolorizer"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }
