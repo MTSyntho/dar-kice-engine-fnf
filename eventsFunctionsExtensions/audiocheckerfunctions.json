@@ -1,0 +1,50 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "Sound Checker",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "AudioCheckerFunctions",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Check if sound is preloaded",
+      "fullName": "Check if sound is preloaded",
+      "functionType": "Condition",
+      "group": "Audio",
+      "name": "CheckIfSoundIsPreloaded",
+      "sentence": "Check if sound _PARAM1_ is preloaded",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "const SoundManager = runtimeScene.getSoundManager();\nconst FullPath = eventsFunctionContext.getArgument(\"Filename\");\nconst FileName = SoundManager._availableResources[FullPath].file;\n\neventsFunctionContext.returnValue = false;\n\nif(SoundManager._loadedSounds[FileName] != undefined) {\n    eventsFunctionContext.returnValue = SoundManager._loadedSounds[FileName].state() == \"loaded\";\n}",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Filename",
+          "name": "Filename",
+          "type": "soundfile"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
