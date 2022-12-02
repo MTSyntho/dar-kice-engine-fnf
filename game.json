@@ -19,7 +19,7 @@
     "useExternalSourceFiles": false,
     "version": "0.1.5",
     "name": "Friday Night Funkin' dar kice Engine",
-    "description": "dope ass friday night funkin engine made in GDevelop 5 for de easiest moddin' and optimization.\nhttps://itsicecreeperpe.itch.io/dar-kice-engine-fnf",
+    "description": "dope ass friday night funkin engine made in GDevelop 5 for de easiest moddin' and optimization.\nhttps://itsicecreeperpe.itch.io/dar-kice-engine-fnf\nhttps://github.com/Official-IceCreeperPE/dar-kice-engine-fnf",
     "author": "ItsIceCreeperPE",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -78,7 +78,9 @@
       "DTQDTguMUDVHwNqBnEvlBn2Hetl1",
       "rotBq28wITdtfsrE7McHQri4k2w2"
     ],
-    "categories": [],
+    "categories": [
+      "leaderboard"
+    ],
     "playableDevices": [
       "keyboard",
       "mobile"

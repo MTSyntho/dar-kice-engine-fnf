@@ -1,11 +1,11 @@
 FNF DK ENGINE CHANGELOG
-v0.0.1.4
+v0.1.4
 -Added Mobile Support
 -Added some Gameplay
 -New revamped menu
 -i frogot :skol:
 
-v0.0.1.5
+v0.1.5
 -Fixed mobile support
 -Fixed desyncing(planktonfun)
 -Added new setting
@@ -14,5 +14,8 @@ v0.0.1.5
 -Added score but it isn't saved
 [the stage of the project is enough to make a simple cool looking fnf mod, in my opinion ~ItsIceCreeperPE]
 
-v0.0.1.6
+v0.1.5
+-fixed game pausing when screen pressed during tutorial song on mobile
+
+v0.1.6
 -coming soon

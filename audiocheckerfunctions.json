@@ -1,0 +1,80 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "Sound Checker",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "AudioCheckerFunctions",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Check if sound is preloaded",
+      "fullName": "Check if sound is preloaded",
+      "functionType": "Condition",
+      "group": "Audio",
+      "name": "CheckIfSoundIsPreloaded",
+      "sentence": "Check if sound _PARAM1_ is preloaded",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "\nconst SoundManager = runtimeScene.getGame().getSoundManager();\nconst FullPath = eventsFunctionContext.getArgument(\"Filename\");\nconst FileName = SoundManager._availableResources[FullPath].file;\n\neventsFunctionContext.returnValue = (SoundManager._loadedSounds[FileName] != undefined);",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Filename",
+          "name": "Filename",
+          "type": "soundfile"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Check if music is preloaded",
+      "fullName": "Check if music is preloaded",
+      "functionType": "Condition",
+      "group": "Audio",
+      "name": "CheckIfMusicIsPreloaded",
+      "sentence": "Check if music _PARAM1_ is preloaded",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "\nconst SoundManager = runtimeScene.getGame().getSoundManager();\nconst FullPath = eventsFunctionContext.getArgument(\"Filename\");\nconst FileName = SoundManager._availableResources[FullPath].file;\n\neventsFunctionContext.returnValue = (SoundManager._loadedMusics[FileName] != undefined);",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Filename",
+          "name": "Filename",
+          "type": "soundfile"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
